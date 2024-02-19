@@ -56,7 +56,7 @@ chatbot = HumanlikeChatbot()
 
 @app.route('/')
 def index():
-    return render_template('hack5.html')
+    return render_template('hack7.html')
 
 @app.route('/send_message', methods=['POST'])
 def send_message():
